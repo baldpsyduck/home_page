@@ -1,7 +1,6 @@
 import styled from "styled-components"
 import info from "../../assets/info"
 import menuIcon from "../../assets/svgs/menu.svg"
-import CutLine, { CUT_LINE_DIRECTION } from "../CutLine"
 import { breathe, floatUp, pulse } from "../Animations"
 
 interface LeftBarProps {
@@ -45,7 +44,6 @@ export default function LeftBar({ isOpen, onToggle }: LeftBarProps) {
                     </InfoLink>
                 </InfoItem>
             </InfoList>
-            <CutLine />
         </Container>
     )
 }
